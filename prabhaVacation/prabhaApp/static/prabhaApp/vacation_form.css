@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Beau+Rivage&family=Playfair+Display:ital,wght@0,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:bisque;
+}
+
+.formmain{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 3.5vw;
+    padding: 4px;
+    
+}
+
+.formlorem{
+    color:crimson;
+    font-size: 1.5vw;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+}
+h3{
+    padding: 15px;
+}
+
+
+.formsubheading{
+    text-transform: capitalize;
+    font-size: 2vw;
+    text-align: center;
+    color: rgb(50, 14, 83);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.formlist{
+    color: rgb(255, 60, 0);
+    font-size: 1.5vw;
+    text-align: center;
+    font-weight: bold;
+    
+}
+span{
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+   display: flex;
+   flex-direction: row;
+   height: 50px;
+   /* width: 50px; */
+   align-items:center;
+   justify-content: center;
+   font-size: 4vw;
+    margin: 15px;
+}
+.infor{
+    font-size: 1.5vw;
+}
+
+option{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    font-size:1.5vw ;
+    /* text-align: center; */
+}
+
+
+.formdata{
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+label{
+    display: flex;
+    flex-direction: row;
+    height: 40px;   
+    
+    font-size:1.5vw ; 
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.place{
+   
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+    align-items: center;
+    margin-top: 55px;
+}
+textarea{
+    font-size: 1.1vw;
+}
+.mail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+    
+
+}
+input{
+    margin: 10px;
+    font-size: 1.5vw;
+}
+
+
+
+.formbutton{
+    display: flexbox;
+    justify-content: center;
+    font-size: 3vw;
+   
+}
+
+select{
+    font-size: 24px;
+    text-align: center;
+}
+
+/* #name{
+    margin-left: 875px;
+}
+#city{
+    margin-left: 875px;
+}
+#Address{
+    margin-left: 875px;
+}
+
+#destination{
+    margin-left: 875px;
+}
+#aeroplanea{
+    margin-left: 875px;
+}
+#aeroplanei{
+    margin-left: 875px;
+}
+#Explain{
+    margin-left: 775px;
+}
+#email{
+    margin-left:875px;
+} */
+nav{
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(231, 104, 189);
+    width: 100%;
+    padding-top: 100;
+    height: 140px;
+}
+.spp{
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 104, 189);
+    font-size: 3vw;
+    text-align: center;
+}
+.tag{
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2vw;
+}
+
+
+
+/* #submit{
+    margin-left:875px;
+} */

@@ -1,0 +1,130 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacation Form - Prabha Vacation</title>
+    <link rel="stylesheet" href= {% static "prabhaApp/vacation_form.css" %} >
+</head>
+
+<body>
+    <nav>
+        <h1 class="spp">Prabha Vacations</h1>
+        <p class="tag">Families That Vacation Together, Stay Together.</p>
+    </nav>
+    <header>
+        <h1>
+            <p class="formmain">
+                Vacation Form
+            </p>
+        </h1>
+        <h3>
+            <p class="formlorem">
+                During normal days we do not get much time to socialize with our friends and relatives. Thus, we can use the vacation to meet our friends and relatives and socialize. Also, you can plan a trip with your family or friends from your everyday life. Always try to go for one trip during the summer or winter holidays.
+                We are here to help you out in planning and arranging your trip for your. Just fill up the following form and submit it. Our executive will get back to you as soon as possible.
+
+            </p>
+        </h3>
+    </header>
+    <br>
+    <main>
+        <p>
+        <h4 class="formsubheading">
+            Following are the destinations available in India
+        </h4>
+        </p>
+        <p>
+        <ul type="none">
+            <li class="formlist">Kolhapur</li>
+            <li class="formlist">Mumbai</li>
+            <li class="formlist">Kolkata</li>
+            <li class="formlist">Delhi</li>
+            <li class="formlist">Chennai</li>
+        </ul>
+        </p>
+        <p>
+        <h4 class="formsubheading">
+            Following are the destinations available in abroad
+        </h4>
+        </p>
+        <p>
+        <ul type="none">
+            <li class="formlist">Las Vegas</li>
+            <li class="formlist">Paris</li>
+            <li class="formlist">Germany</li>
+            <li class="formlist">Japan</li>
+            <li class="formlist">Australia</li>
+        </ul>
+        </p>
+        <span>
+            <input class="infor" type="text" placeholder="Enter Your Name" name="name" id="name">
+            <input class="infor" type="text" placeholder="Enter Your City" name="city" id="city">
+            <input class="infor" type="text" placeholder="Enter Your Address" name="Address" id="Address">
+
+        </span>
+        <div>
+            <h4 class="formsubheading">Select your destination here</h4>
+            <span>
+            <select name="destination" id="destination">
+                <option value="No Destination">Select Your Destination</option>
+                <option value="Kolhapur">Kolhapur</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Las Vegas">Las Vegas</option>
+                <option value="Paris">Paris</option>
+                <option value="Germany">Germany</option>
+                <option value="Japan">Japan</option>
+                <option value="Australia">Australia</option>
+            </select>
+        </span>
+        </div>
+        <div>
+            <h4 class="formsubheading">Select your travel details here</h4>
+            <p class="formdata">If your Destination is in Abroad then please select the any one of the following option.</p><br>
+            <label for="aeroplanea">
+                <input type="radio" value="aeroplane a" name="aeroplane" id="aeroplanea"> General Class
+            </label>
+            <label for="aeroplaneb">
+                <input type="radio" value="aeroplane b" name="aeroplane" id="aeroplaneb"> Buisness Class
+            </label>
+            <br>
+            <p class="formdata">If your Destination is in India then please select the any one of the following option.</p> <br>
+            <label for="aeroplanei">
+                <input type="radio" value="aeroplane ind" name="aeroplanein" id="aeroplanei"> General Class
+            </label>
+            <label for="aeroplaneii">
+                <input type="radio" value="aeroplane ind" name="aeroplanein" id="aeroplaneii"> Buisness Class
+            </label>
+
+
+        </div>
+        <div>
+            <p>
+                <span class="place">
+                <textarea name="Explain" id="Explain" cols="30" rows="10"
+                    placeholder="Explain Why do you want to go for vacation"></textarea>
+                </span>
+
+            </p><br>
+            <p>
+                <span class="mail">
+                <input class="myemail" type="email" name="email" id="email" placeholder="Enter your Email id here">
+            </span>
+            </p><br>
+
+        </div>
+        <span class="formbutton">
+            <input type="submit" value="submit" id="submit">
+        </span>
+
+    </main>
+</body>
+
+</html>
